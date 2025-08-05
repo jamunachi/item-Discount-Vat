@@ -1,0 +1,18 @@
+[
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice Item",
+    "fieldname": "custom_item_discount_percent",
+    "label": "Item Discount %",
+    "fieldtype": "Float",
+    "insert_after": "rate"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice Item",
+    "fieldname": "custom_item_discount_amount",
+    "label": "Item Discount Amount",
+    "fieldtype": "Currency",
+    "insert_after": "custom_item_discount_percent"
+  }
+]

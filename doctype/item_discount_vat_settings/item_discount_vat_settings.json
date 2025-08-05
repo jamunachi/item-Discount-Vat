@@ -1,0 +1,29 @@
+{
+    "doctype": "DocType",
+    "name": "Item Discount VAT Settings",
+    "module": "Item Discount VAT",
+    "custom": 1,
+    "fields": [
+        {
+            "label": "Discount Account",
+            "fieldname": "discount_account",
+            "fieldtype": "Link",
+            "options": "Account",
+            "reqd": 0
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1,
+            "submit": 0,
+            "cancel": 0,
+            "amend": 0
+        }
+    ],
+    "istable": 0,
+    "is_single": 1
+}
